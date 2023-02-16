@@ -21,7 +21,6 @@ function newTask() {
 }
 
 function deleteTask(e) {
-
    const task = e.target.closest('.task');
    if (!task) return;
    const ID = +task.id.slice(-1);
