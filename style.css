@@ -1,0 +1,43 @@
+body {
+   background-color: #caf0f8;
+}
+
+.container {
+   height: 50vh;
+   display: flex;
+   gap: 50px;
+   padding: 30px;
+}
+
+.tasks {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   flex-basis: 400px;
+}
+
+.task {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   border-radius: 3px;
+   color: #03045e;
+   background-color: #00b4d8;
+   font-weight: 600;
+
+}
+
+.button {
+   padding: 15px 25px;
+   color: #caf0f8;
+   background-color: #0077b6;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   align-self: flex-start;
+   font-weight: 600
+}
+
+.deleteButton {
+   padding: 7px 8px;
+}
